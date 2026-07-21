@@ -25,9 +25,9 @@ services:
         fromDatabase:
           name: nepali-sentiment-db
           property: connectionString
-    
-    # Postgres database
-    databases:
-      - name: nepali-sentiment-db
-        plan: free
+
+databases:
+  - name: nepali-sentiment-db
+    plan: free
+
 
